@@ -18,8 +18,9 @@ function newItem(url, left, bottom) {
   });
 }
 
-let inventory = document.createElement("div");
+let inventory;
 function newInventory() {
+  inventory = document.createElement("div");
   inventory.style.position = "fixed";
   inventory.style.bottom = "0px";
   inventory.style.left = "0px";
